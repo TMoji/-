@@ -4,7 +4,8 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
-header{
+
+.heading{
   width: 100%;
   height: 50px;
   background-color:orange;
@@ -12,9 +13,32 @@ header{
 
 main{
   width: 100%;
-  
-footer{
+  height: 800px;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.box{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #FFFFEE;
+}
+
+.box-item{
+  padding-top: 20px;
+  background-size: contain;
+}
+
+.category{
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  font-size: 11px;
+}
+
+.fotter{
   width: 100%;
   height: 50px;
-  background-color: #848282;
+  background-color: #C0C0C0;
 }
